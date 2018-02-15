@@ -3,18 +3,18 @@ body{
 	text-align: center;
 }
 nav{
-	z-index: 3;
+	/*z-index: 3;
 	top: 0;
 	position: absolute;
 	width: 15%;
-	height: auto;
+	height: auto;*/
 	background-color: rgb(48,48,48);
 }
 footer{
-	position: relative;
+	/*position: relative;
 	width: 100%;
 	left: 0;
-	bottom: 0;
+	bottom: 0;*/
 	background-color: rgba(48,48,48,.5);
 	color: #D0CED0;
 	padding: 1px;
@@ -28,25 +28,25 @@ li{
 }
 .single-div{
 	background-color: rgba(48,48,48,.5);
-	width: 60%;
+	/*width: 60%;
 	position: relative;
-	left: 20%;
+	left: 20%;*/
 	padding: 15px;
 	margin: 15px;
 }
 .container-right{
 	background-color: rgba(48,48,48,.5);
-	width: 40%;	
+	/*width: 40%;	
 	position: relative;
-	left: 35%;
+	left: 35%;*/
 	padding: 15px;
 	margin-bottom: 15px;
 }
 .container-left{
 	background-color: rgba(48,48,48,.5);
-	width: 40%;
+	/*width: 40%;
 	position: relative;
-	left: 20%;
+	left: 20%;*/
 	padding: 15px;
 	margin-bottom: 15px;
 }
