@@ -6,42 +6,49 @@
 	<link rel="stylesheet" type="text/css" href="../style/style.css">
 </head>
 <body>
-	<nav>
-		<div>
-			<a href="../index.html"><img class="logo" src="../assets/Winston Summers.png" alt="WinstonSummersLogo"></a>
-		</div>
-		<!-- John Adams and quotes will go hear -->
-		<hr>
-		<a href="./about.html">About Me</a>
-		<hr>
-		<a href="./projects.html">Notable Projects</a>
-	</nav>
-	<h1>Notable Projects</h1>
-	<h3>The things I'm proud of</h3>
-	<div class="single-div">
-		<!-- i want these to alternate layout left and right but i am not sure how that will look yet need to revisit and experiment -->
-		<div>
-			<h4>[Project Name]</h4>
-			<p>Team:(if apt)[names will be links to github/portfolio at their discretion]</p>
-			<p>[Brief description]</p>
-			<a href="#">github link</a><a href="#">live deployment link</a>
-			<img src="#"> <!-- an image or gif of app -->
+	<div class="row">
+		<nav class="col l3 m2 s12">
+			<div>
+				<a href="../index.html"><img class="logo" src="../assets/Winston Summers.png" alt="WinstonSummersLogo"></a>
+			</div>
+			<!-- John Adams and quotes will go hear -->
 			<hr>
-		</div>
-		<div>
-			<h4>Theater of the Mind(TotM)</h4>
-			<p>Text-based RPG, a fun through back to the "good ol' days" of pc gaming. Front-end game(HTML, CSS, Javascript)</p>
-			<a href="https://github.com/winstonsummers/TotM">github</a><a href="https://winstonsummers.github.io/TotM/">live</a>
-			<img src="#"> <!-- an image or gif of app -->
+			<!-- revisit burger menu regarding visibility -->
+			<a href="./about.html">About Me</a>
 			<hr>
-		</div>
-		<div>
-			<h4>Venture</h4>
-			<p>Team: <a href="">Tony Phan,</a> <a href="">Sweeney Arrnett,</a> Winston Summers</p>
-			<p>Team MERN stack app for travelers to record packing list and find places to eat(MERN stack, Yelp-Fusion)</p>
-			<a href="https://github.com/sweeneyyy/mern-project-3">github</a><a href="#">live</a>
-			<img src="#"> <!-- an image or gif of app -->
-			<hr>
+			<a href="./projects.html">Notable Projects</a>
+		</nav>
+	</div>
+	<div class="row">
+		<div class="container col s12 m9 offset-m3 l6 offset-l4">
+			<h1>Notable Projects</h1>
+			<h3>The things I'm proud of</h3>
+			<div class="single-div">
+				<!-- i want these to alternate layout left and right but i am not sure how that will look yet need to revisit and experiment -->
+				<div>
+					<h4>[Project Name]</h4>
+					<p>Team:(if apt)[names will be links to github/portfolio at their discretion]</p>
+					<p>[Brief description]</p>
+					<a href="#">github link</a><a href="#">live deployment link</a>
+					<img src="#"> <!-- an image or gif of app -->
+					<hr>
+				</div>
+				<div>
+					<h4>Theater of the Mind(TotM)</h4>
+					<p>Text-based RPG, a fun through back to the "good ol' days" of pc gaming. Front-end game(HTML, CSS, Javascript)</p>
+					<a href="https://github.com/winstonsummers/TotM">github</a><a href="https://winstonsummers.github.io/TotM/">live</a>
+					<img src="#"> <!-- an image or gif of app -->
+					<hr>
+				</div>
+				<div>
+					<h4>Venture</h4>
+					<p>Team: <a class="team" href="">Tony Phan,</a> <a class="team" href="">Sweeney Arrnett,</a> Winston Summers</p>
+					<p>Team MERN stack app for travelers to record packing list and find places to eat(MERN stack, Yelp-Fusion)</p>
+					<a href="https://github.com/sweeneyyy/mern-project-3">github</a><a href="#">live</a>
+					<img src="#"> <!-- an image or gif of app -->
+					<hr>
+				</div>
+			</div>
 		</div>
 	</div>
 

@@ -3,18 +3,9 @@ body{
 	text-align: center;
 }
 nav{
-	/*z-index: 3;
-	top: 0;
-	position: absolute;
-	width: 15%;
-	height: auto;*/
 	background-color: rgb(48,48,48);
 }
 footer{
-	/*position: relative;
-	width: 100%;
-	left: 0;
-	bottom: 0;*/
 	background-color: rgba(48,48,48,.5);
 	color: #D0CED0;
 	padding: 1px;
@@ -26,31 +17,13 @@ a{
 li{
 	list-style: none;
 }
-.single-div{
-	background-color: rgba(48,48,48,.5);
-	/*width: 60%;
-	position: relative;
-	left: 20%;*/
-	padding: 15px;
-	margin: 15px;
-}
-.container-right{
-	background-color: rgba(48,48,48,.5);
-	/*width: 40%;	
-	position: relative;
-	left: 35%;*/
-	padding: 15px;
-	margin-bottom: 15px;
-}
-.container-left{
-	background-color: rgba(48,48,48,.5);
-	/*width: 40%;
-	position: relative;
-	left: 20%;*/
-	padding: 15px;
-	margin-bottom: 15px;
+.container{
+	
 }
 .logo{
 	width: 100%;
 	height: auto;
+}
+.team{
+	color: black;
 }
